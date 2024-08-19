@@ -15,7 +15,7 @@ if ($stmt === false){
 }
 $stmt->bind_param("ssssss", $nome, $email);
 if ($stmt->execute()){
-    echo "pedido realizado com suo!";
+    echo "parabens!";
 
 $stmt->close();
 $conn->close();
